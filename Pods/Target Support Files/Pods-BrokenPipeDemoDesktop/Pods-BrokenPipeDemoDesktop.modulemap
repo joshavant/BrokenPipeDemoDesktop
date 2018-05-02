@@ -1,0 +1,6 @@
+framework module Pods_BrokenPipeDemoDesktop {
+  umbrella header "Pods-BrokenPipeDemoDesktop-umbrella.h"
+
+  export *
+  module * { export * }
+}

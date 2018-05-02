@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FCC152209A2C41002EBB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC151209A2C41002EBB61 /* AppDelegate.swift */; };
+		03FCC154209A2C42002EBB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FCC153209A2C42002EBB61 /* Assets.xcassets */; };
+		03FCC157209A2C42002EBB61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03FCC155209A2C42002EBB61 /* MainMenu.xib */; };
+		03FCC160209A2CA3002EBB61 /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCC15F209A2CA3002EBB61 /* DemoServer.swift */; };
+		A275157DC5E2C070A003D821 /* Pods_BrokenPipeDemoDesktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE172EAFE9247581AE25E2BF /* Pods_BrokenPipeDemoDesktop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03FCC14E209A2C41002EBB61 /* BrokenPipeDemoDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenPipeDemoDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FCC151209A2C41002EBB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03FCC153209A2C42002EBB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FCC156209A2C42002EBB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03FCC158209A2C42002EBB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FCC159209A2C42002EBB61 /* BrokenPipeDemoDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrokenPipeDemoDesktop.entitlements; sourceTree = "<group>"; };
+		03FCC15F209A2CA3002EBB61 /* DemoServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoServer.swift; sourceTree = "<group>"; };
+		A29E54756384AE0E5A10F35E /* Pods-BrokenPipeDemoDesktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokenPipeDemoDesktop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrokenPipeDemoDesktop/Pods-BrokenPipeDemoDesktop.debug.xcconfig"; sourceTree = "<group>"; };
+		B42E54C9CAEF2496BC643F66 /* Pods-BrokenPipeDemoDesktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokenPipeDemoDesktop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrokenPipeDemoDesktop/Pods-BrokenPipeDemoDesktop.release.xcconfig"; sourceTree = "<group>"; };
+		BE172EAFE9247581AE25E2BF /* Pods_BrokenPipeDemoDesktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrokenPipeDemoDesktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FCC14B209A2C41002EBB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A275157DC5E2C070A003D821 /* Pods_BrokenPipeDemoDesktop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FCC145209A2C41002EBB61 = {
+			isa = PBXGroup;
+			children = (
+				03FCC150209A2C41002EBB61 /* BrokenPipeDemoDesktop */,
+				03FCC14F209A2C41002EBB61 /* Products */,
+				505E29D05FF2B5B457745D7F /* Pods */,
+				17B4108F930B8C07D637BB0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03FCC14F209A2C41002EBB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FCC14E209A2C41002EBB61 /* BrokenPipeDemoDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FCC150209A2C41002EBB61 /* BrokenPipeDemoDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				03FCC151209A2C41002EBB61 /* AppDelegate.swift */,
+				03FCC15F209A2CA3002EBB61 /* DemoServer.swift */,
+				03FCC153209A2C42002EBB61 /* Assets.xcassets */,
+				03FCC155209A2C42002EBB61 /* MainMenu.xib */,
+				03FCC158209A2C42002EBB61 /* Info.plist */,
+				03FCC159209A2C42002EBB61 /* BrokenPipeDemoDesktop.entitlements */,
+			);
+			path = BrokenPipeDemoDesktop;
+			sourceTree = "<group>";
+		};
+		17B4108F930B8C07D637BB0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE172EAFE9247581AE25E2BF /* Pods_BrokenPipeDemoDesktop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		505E29D05FF2B5B457745D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A29E54756384AE0E5A10F35E /* Pods-BrokenPipeDemoDesktop.debug.xcconfig */,
+				B42E54C9CAEF2496BC643F66 /* Pods-BrokenPipeDemoDesktop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FCC14D209A2C41002EBB61 /* BrokenPipeDemoDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FCC15C209A2C42002EBB61 /* Build configuration list for PBXNativeTarget "BrokenPipeDemoDesktop" */;
+			buildPhases = (
+				2CA07145AD8B184D19985E01 /* [CP] Check Pods Manifest.lock */,
+				03FCC14A209A2C41002EBB61 /* Sources */,
+				03FCC14B209A2C41002EBB61 /* Frameworks */,
+				03FCC14C209A2C41002EBB61 /* Resources */,
+				9D02D4B3D62B0604EE597B23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokenPipeDemoDesktop;
+			productName = BrokenPipeDemoDesktop;
+			productReference = 03FCC14E209A2C41002EBB61 /* BrokenPipeDemoDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FCC146209A2C41002EBB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Josh Avant";
+				TargetAttributes = {
+					03FCC14D209A2C41002EBB61 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 03FCC149209A2C41002EBB61 /* Build configuration list for PBXProject "BrokenPipeDemoDesktop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FCC145209A2C41002EBB61;
+			productRefGroup = 03FCC14F209A2C41002EBB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FCC14D209A2C41002EBB61 /* BrokenPipeDemoDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FCC14C209A2C41002EBB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FCC154209A2C42002EBB61 /* Assets.xcassets in Resources */,
+				03FCC157209A2C42002EBB61 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CA07145AD8B184D19985E01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrokenPipeDemoDesktop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D02D4B3D62B0604EE597B23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrokenPipeDemoDesktop/Pods-BrokenPipeDemoDesktop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/HTTPParserC/HTTPParserC.framework",
+				"${BUILT_PRODUCTS_DIR}/Telegraph/Telegraph.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTTPParserC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Telegraph.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrokenPipeDemoDesktop/Pods-BrokenPipeDemoDesktop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FCC14A209A2C41002EBB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FCC152209A2C41002EBB61 /* AppDelegate.swift in Sources */,
+				03FCC160209A2CA3002EBB61 /* DemoServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03FCC155209A2C42002EBB61 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FCC156209A2C42002EBB61 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FCC15A209A2C42002EBB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FCC15B209A2C42002EBB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03FCC15D209A2C42002EBB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29E54756384AE0E5A10F35E /* Pods-BrokenPipeDemoDesktop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrokenPipeDemoDesktop/BrokenPipeDemoDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y3YUZP442G;
+				INFOPLIST_FILE = BrokenPipeDemoDesktop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshavant.BrokenPipeDemoDesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03FCC15E209A2C42002EBB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42E54C9CAEF2496BC643F66 /* Pods-BrokenPipeDemoDesktop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BrokenPipeDemoDesktop/BrokenPipeDemoDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y3YUZP442G;
+				INFOPLIST_FILE = BrokenPipeDemoDesktop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshavant.BrokenPipeDemoDesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FCC149209A2C41002EBB61 /* Build configuration list for PBXProject "BrokenPipeDemoDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FCC15A209A2C42002EBB61 /* Debug */,
+				03FCC15B209A2C42002EBB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FCC15C209A2C42002EBB61 /* Build configuration list for PBXNativeTarget "BrokenPipeDemoDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FCC15D209A2C42002EBB61 /* Debug */,
+				03FCC15E209A2C42002EBB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FCC146209A2C41002EBB61 /* Project object */;
+}
